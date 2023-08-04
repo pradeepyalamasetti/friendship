@@ -1,0 +1,1078 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website Design</title>
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+
+    <!--------------------------- Part 1 ----------------------------->
+    <!-- Header with Bootstrap -->
+
+    <!--  4.5.3  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+    <header>
+        <!-- one -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+          <div class=" container">
+              <a class="navbar-brand logo" href="#">C.</a>
+  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav m-auto">
+                      <a class="nav-link active" href="#">
+                          Home <span class="sr-only">(current)</span>
+                      </a>
+                      <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="#">Services</a>
+                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#">Follow Us</a>
+                  </div>
+              </div>
+          </div>
+      </nav>
+  
+     <!-- Two  -->
+      <nav class="navbar navbar-expand-lg navbar-light " style='background-color:rgb(194, 126, 126);'>
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/navbar-logo-img.png"
+            class="navbar-image"
+            alt=""
+          />Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+    <!--------------------------- Part 2 ----------------------------->
+    <!-- Header without Bootstrap with scrolling -->
+
+    <div class="header">
+        <div class="container">
+           <div class="navbar" >
+               <div class="logo">
+                   <a href="index.html"><img src="images/logo.png" width="125px"></a>
+               </div>
+               <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+               </nav>
+               <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+               <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+           </div>
+  
+  
+           
+            <div class="row">
+                 <div class="col-2">
+  
+                     <h1>Give Your Workout<br>A New Style!</h1>
+                     <p>Success isn’t always about greatness. It’s about consistency. Consistent<br>hard work gains success. Greatness will come.</p>
+                     <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="btn">Explore Now &#8594;</a>
+                 </div>
+                 <div class="col-2">
+                     <img src="images/image1.png">
+                 </div>
+                
+            </div>
+            
+        </div>
+  </div>
+  <!-------------js for toggle menu-------------->
+  
+  <script>
+     
+     var MenuItems = document.getElementById("MenuItems");
+     MenuItems.style.maxHeight = "0px";
+     function menutoggle(){
+         if(MenuItems.style.maxHeight == "0px") {
+             MenuItems.style.maxHeight = "200px";
+         }else{
+             MenuItems.style.maxHeight = "0px"
+         } 
+     }
+  
+  </script>
+
+
+<!--------------------------- Part 3 ----------------------------->
+<!-- 3.Header without Bootstrap with scrolling position is Fixed -->
+<div class="header">
+    <div class="container">
+       <div class="navbar " >
+          <div class="navbar-items" >
+              <div class="logo">
+                  <a href="index.html"><img src="images/logo.png" width="125px"></a>
+              </div>
+              <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="">About</a></li>
+                   <li><a href="">Contact</a></li>
+                   <li><a href="account.html">Account</a></li>
+               </ul>
+              </nav>
+              <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+              <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+          </div>
+       </div>
+
+
+       
+        <div class="row">
+             <div class="col-2">
+
+                 <h1>Give Your Workout<br>A New Style!</h1>
+                 <p>Success isn’t always about greatness. It’s about consistency. Consistent<br>hard work gains success. Greatness will come.</p>
+                 <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="btn">Explore Now &#8594;</a>
+             </div>
+             <div class="col-2">
+                 <img src="images/image1.png">
+             </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+
+                <h1>Give Your Workout<br>A New Style!</h1>
+                <p>Success isn’t always about greatness. It’s about consistency. Consistent<br>hard work gains success. Greatness will come.</p>
+                <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="images/image1.png">
+            </div>
+           
+       </div>
+
+       <div class="row">
+        <div class="col-2">
+
+            <h1>Give Your Workout<br>A New Style!</h1>
+            <p>Success isn’t always about greatness. It’s about consistency. Consistent<br>hard work gains success. Greatness will come.</p>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="images/image1.png">
+        </div>
+       
+   </div>
+        
+    </div>
+    </div>
+<!-------------js for toggle menu-------------->
+<script>
+ var MenuItems = document.getElementById("MenuItems");
+ MenuItems.style.maxHeight = "0px";
+ function menutoggle(){
+     if(MenuItems.style.maxHeight == "0px") {
+         MenuItems.style.maxHeight = "200px";
+     }else{
+         MenuItems.style.maxHeight = "0px"
+     } 
+ }
+</script>
+
+
+
+<!--------------------------- Part 4 ----------------------------->
+<!-- 4.Footer with bootstrap -->
+<!-- loaded cloudfonbt and font-awesome icons -->
+<footer>
+    <div class="vr-footer-section pt-5 pb-5">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-md-4">
+                 <div class="text-center text-md-left">
+                     <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" class="vr-logo" />
+                     <div class="d-flex flex-row justify-content-center justify-content-md-start mt-3 mb-3">
+                         <div class="vr-footer-section-icon-container">
+                             <i class="fab fa-google icon"></i>
+                         </div>
+                         <div class="vr-footer-section-icon-container">
+                             <i class="fab fa-twitter icon"></i>
+                         </div>
+                         <div class="vr-footer-section-icon-container">
+                             <i class="fab fa-twitter icon"></i>
+                         </div>
+                         <div class="vr-footer-section-icon-container">
+                             <i class="fab fa-instagram icon"></i>
+                         </div>
+                     </div>
+                     <p class="vr-footer-section-text">
+                         37,Ayur Vigyan Nagar,New Delhi,India.</p>
+                 </div>
+             </div>
+             <div class="col-6 col-md-4 mt-3">
+                 <h1 class="vr-footer-section-heading pb-2">Contact Us</h1>
+                 <ul class="vr-footer-section-list">
+                     <li class="mb-3">
+                         <i class="fa fa-envelope icon mr-2"></i>
+                         <span class="vr-footer-section-text">vr@gmail.com</span>
+                     </li>
+ 
+                     <li class="mb-3">
+                         <i class="fa fa-phone-alt icon mr-2"></i>
+                         <span class="vr-footer-section-text">1234506789</span>
+                     </li>
+                     <li class="mb-3">
+                         <i class="fa fa-skype-alt icon mr-2"></i>
+                         <span class="vr-footer-section-text">Rahul</span>
+                     </li>
+                 </ul>
+             </div>
+             <div class="col-6 col-md-4 mt-3">
+                 <h1 class="vr-footer-section-heading pb-2">Let Us Help You</h1>
+                 <ul class="vr-footer-section-list">
+                     <li class="vr-footer-section-text">100% Purchase Protection</li>
+                     <li class="vr-footer-section-text">Your Account</li>
+                     <li class="vr-footer-section-text">Return Centre</li>
+                     <li class="vr-footer-section-text">Help</li>
+                 </ul>
+             </div>
+         </div>
+         <hr class="hr-line" />
+         <div class="text-center">
+             <i class="fa fa-copyright icon" aria-hidden="true"></i>
+             <span class="vr-footer-section-copyright">2020 by Rahul. Created with Bootstrap.</span>
+         </div>
+     </div>
+ </footer>
+
+<!--------------------------- Part 5 ----------------------------->
+ <!-- 5.Footer without bootstrap  -->
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+               <img src="images/logo-white.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col3">
+               <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"><a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1">Copyright 2020 - Easy Tutorials</a></p>
+    </div>
+</div>
+<!-------------------------- Part 6 ----------------------------->
+<!-- with Bootstrap -->
+<div class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="vr-features-section-heading"></h1>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-connect-img.png" class="vr-features-card-image" />
+                    <h1 class="vr-features-card-title mt-3">Easy to connect</h1>
+                    <p class="vr-features-card-description"> Instead of viewing a screen in front of them, users are immersed and able to interact with 3D worlds.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-capability-img.png" class="vr-features-card-image" />
+                    <h1 class="vr-features-card-title mt-3">Easy to connect</h1>
+                    <p class="vr-features-card-description"> Instead of viewing a screen in front of them, users are immersed and able to interact with 3D worlds.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/video-games-img.png" class="vr-features-card-image" />
+                    <h1 class="vr-features-card-title mt-3">Easy to connect</h1>
+                    <p class="vr-features-card-description"> Instead of viewing a screen in front of them, users are immersed and able to interact with 3D worlds.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/interaction-img.png" class="vr-features-card-image" />
+                    <h1 class="vr-features-card-title mt-3">Interaction</h1>
+                    <p class="vr-features-card-description">Interaction refers to the <span class="interaction">natural interaction</span> between the user and the virtual scene.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-play-img.png" class="vr-features-card-image" />
+                    <h1 class="vr-features-card-title mt-3">Easy to connect</h1>
+                    <p class="vr-features-card-description"> Instead of viewing a screen in front of them, users are immersed and able to interact with 3D worlds.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/experience-img.png" class="vr-features-card-image" />
+                    <h1 class="vr-features-card-title mt-3">Easy to connect</h1>
+                    <p class="vr-features-card-description"> Instead of viewing a screen in front of them, users are immersed and able to interact with 3D worlds.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-------------------------- Part 7 ----------------------------->
+<!-- with Bootstrap -->
+<div class="vr-kit-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="vr-kit-section-heading">Include VR kit</h1>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-1-img.png" class="vr-kit-card-image" />
+                    <h1 class="vr-kit-card-title mt-3"> Two Touch Controllers</h1>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-2-img.png" class="vr-kit-card-image" />
+                    <h1 class="vr-kit-card-title mt-3">VR Headset</h1>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-3 mb-3 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-3-img.png" class="vr-kit-card-image" />
+                    <h1 class="vr-kit-card-title mt-3">Charging Cable</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 8 ----------------------------->
+<!-- with Bootstrap -->
+<div class="vr-wediste-section  pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 order-1 order-md-2">
+                <div class="text-centre">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-optics-img.png" class="vr-wediste-section-img" />
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center order-2 order-md-1 mb-5">
+                <h1 class="vr-wediste-section-heading">Impoved Optics</h1>
+                <p class="vr-wediste-section-description"> A virtual reality headset is a head-mounted device that provides virtual reality for the wearer.</p>
+                <button class="vr-button">Read More</button>
+            </div>
+        </div>
+
+
+        <div class="vr-wediste-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 ">
+                        <div class="text-centre">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-controllers-img.png" class="vr-wediste-section-img" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
+                        <h1 class="vr-wediste-section-heading">Two Touch Controller</h1>
+                        <p class="vr-wediste-section-description"> Your Oculus Touch Controller are a pair of tracked controllers that give you a hand.</p>
+                        <button class="vr-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-------------------------- Part 9 ----------------------------->
+<!-- with Bootstrap -->
+<div class="trend-main-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="trend-section-heading">Treading Blogs</h1>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="shadow trend-item-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png" class="trend-item-image w-100" />
+                    <h1 class="trend-card-titles"> Amazon </h1>
+                    <p class="trend-description">
+                        New Way to See the World.
+                        It is a simulated experience that
+                        can be completely different from the
+                        real world.</p>
+                    <a href="" class="trend-item-link">
+                        READ MORE
+                        <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#1754a1" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="shadow trend-item-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png" class="trend-item-image w-100" />
+                    <h1 class="trend-card-titles"> Advertising</h1>
+                    <p class="trend-description">
+                        The best one for you.come
+                        experience the wonder of Google Earth
+                        in virtual reality.
+                    </p>
+                    <a href="" class="trend-item-link">
+                        READ MORE
+                        <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#1754a1" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="shadow trend-item-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png" class="trend-item-image w-100" />
+                    <h1 class="trend-card-titles"> Advertising</h1>
+                    <p class="trend-description">
+                        The best one for you.come
+                        experience the wonder of Google Earth
+                        in virtual reality.
+                    </p>
+                    <a href="" class="trend-item-link">
+                        READ MORE
+                        <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#1754a1" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-row justify-content-end">
+                <button class="btn btn-primary">View All</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 10 ----------------------------->
+<!-- with Bootstrap -->
+<div class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="products-section-heading pb-2">Products</h1>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="product-card vr-headset-bg-container d-flex flex-column justify-content-end p-3 mb-3">
+                    <h1 class="product-card-title">VR Headset</h1>
+                    <p class="product-card-price">Rs 75,000</p>
+                    <button class="buy-now-button">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="product-card vr-headset-bg-container d-flex flex-column justify-content-end p-3 mb-3">
+                    <h1 class="product-card-title">VR Headset and Two Touch</h1>
+                    <p class="product-card-price">Rs 90,000</p>
+                    <button class="buy-now-button">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-row justify-content-end">
+                <button class="view-all-button">View All</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 11 ----------------------------->
+<!-- with Bootstrap -->
+<div class="service-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="service-section-heading">Services</h1>
+                <p class="service-section-description">
+                    what I do
+                </p>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="shadow service-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="service-card-image" />
+                    <h1 class="service-card-title mt-3">Static Websites</h1>
+                    <p class="service-card-description">
+                        A Static Website contains Web
+                        Pages with fixed content.Each
+                        Page is developed using the same
+                        information to every visitor.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="shadow service-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="service-card-image" />
+                    <h1 class="service-card-title mt-3">Responsive Web design</h1>
+                    <p class="service-card-description">
+                        Responsive Web design is the
+                        approach that suggests that
+                        design and development should
+                        respond to the user's behaviour
+                        and environment based on
+                        screen size,platform and
+                        orientation.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="shadow service-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="service-card-image" />
+                    <h1 class="service-card-title mt-3">Customisable Layouts</h1>
+                    <p class="service-card-description">
+                        Customsiable sites are
+                        templates with set layouts.You
+                        may be able to change photos
+                        and colors, but your site will look
+                        similar to many other sites due
+                        to the template.The same goes
+                        for….
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 12 ----------------------------->
+<!-- with Bootstrap -->
+
+<div class="work-done-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="#ffffff" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z" />
+                </svg>
+                <hr class="hr-line" />
+                <h1 class="work-done-card-title">10</h1>
+                <h1 class="work-done-card-sub-title">Projects Completed</h1>
+            </div>
+            <div class="col-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="#ffffff" class="bi bi-file-text" viewBox="0 0 16 16">
+                    <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z" />
+                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z" />
+                </svg>
+                <hr class="hr-line" />
+                <h1 class="work-done-card-title">2,800</h1>
+                <h1 class="work-done-card-sub-title">Lines of code</h1>
+            </div>
+            <div class="col-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="#ffffff" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                    <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                </svg>
+
+                <hr class="hr-line" />
+                <h1 class="work-done-card-title">15</h1>
+                <h1 class="work-done-card-sub-title">Hours worked</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 13 ----------------------------->
+<!-- with Bootstrap -->
+<div class="testimonials-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="testimonials-section-sub-heading">Testimonials</h1>
+                <h1 class="testimonials-section-heading">Our Members Says</h1>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonials-card text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-1-img.png" class="testimonials-card-image" alt="..." />
+                                <p class="testimonials-card-description">
+                                    Jenny is one of the hard-working developers,and it was a pleasure working with him.Having him on the project certainly made everything run smoother.
+                                </p>
+                                <p class="testimonials-card-person-name">
+                                    - Gautham,Founder of Cocopay Company
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonials-card text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-2-img.png" class="testimonials-card-image" alt="..." />
+                                <p class="testimonials-card-description">
+                                    Working with jenny was an excellent experience.He is an incredibly talented developer and what makes him stand out is his work ethic and steady approach.
+                                </p>
+                                <p class="testimonials-card-person-name">
+                                    - Rakesh,Co-developer in Veriphy Company
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonials-card text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-3-img.png" class="testimonials-card-image" alt="..." />
+                                <p class="testimonials-card-description">
+                                    I have Worked with jenny on two comple projects,and in both cases,the projects are done in a timely fashion and delivered with excellent customer satisfaction.
+
+                                </p>
+                                <p class="testimonials-card-person-name">
+                                    - Riya,Co-founder of Cocopay Company
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-right">
+                        <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 14 ----------------------------->
+<!-- with Bootstrap -->
+
+<div class="footer-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="footer-section-image" />
+                    <div class="ml-3">
+                        <h1 class="footer-section-sub-heading">Jenny</h1>
+                        <p class="footer-section-text">Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <h1 class="footer-section-sub-heading">Phone No.</h1>
+                <div>
+                    <i class="fas fa-phone-alt icon"></i>
+                    <span class="footer-section-text ml-2">9876543210</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <h1 class="footer-section-sub-heading">Email</h1>
+                <div>
+                    <i class="fas fa-envelope icon"></i>
+                    <span class="footer-section-text ml-2">jenny3@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <h1 class="footer-section-sub-heading">Address</h1>
+                <div>
+                    <i class="fas fa-map-marked-alt icon"></i>
+                    <span class="footer-section-text ml-2">17 Ayur vigyan Nagar,New Delhi,India.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section-copyright-container">
+        <i class="fa fa-copyright icon" aria-hidden="true"></i>
+        <span class="footer-section-text">2020 by Jenny Wilson. Created with Bootstrap.</span>
+    </div>
+</div>
+
+<!-------------------------- Part 15 ----------------------------->
+<!-- with Bootstrap -->
+<div class="service-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="service-section-heading">Our Services</h1>
+                <p class="service-section-description">
+                    Most online stores offer lower prices Online shopping makes price
+                    comparison simpler and quicker.It is very convenient to shop from where you
+                    are located. It saves you the cost of driving to stores, as well as parking fess.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="shadow service-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-delivery-img.png" class="service-card-image" />
+
+                    <h1 class="service-card-title mt-3">Fast and Free Delivery </h1>
+                    <p class="service-card-description">
+                        Fast,free and convenient delivery choices on millions of items.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="shadow service-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-money-back-img.png" class="service-card-image" />
+                    <h1 class="service-card-title mt-3">100% Money back guarantee</h1>
+                    <p class="service-card-description">
+                        This is probably the most popular guarantee in the world.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="shadow service-card p-3 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-24-by-7-support-img.png" class="service-card-image" />
+                    <h1 class="service-card-title mt-3">Online Support 24/7</h1>
+                    <p class="service-card-description">
+                        our online Support will provide you with many useful functions,valuable Informations,tips.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------- Part 16 ----------------------------->
+<!-- with Bootstrap -->
+<div class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="trending-blogs-section-heading mb-3">Trending Blogs</h1>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="shadow mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-1-img.png" class="trending-blogs-item-image w-100" />
+                    <div class="p-3">
+                        <h1 class="trending-blogs-card-sub-title">Fountain Pens </h1>
+                        <h1 class="trending-blogs-card-title">Guide to Fountain Pen Nibs</h1>
+                        <p class="trending-blogs-card-description">
+                            If you're having trouble with a
+                            fountain pen whether it's
+                            scratchy,too dry,or too wet…
+                        </p>
+                        <a href="" class="trending-blogs-card-link">
+                            READ MORE
+                            <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#ff9f00" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6">
+                <div class="shadow mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-2-img.png" class="trending-blogs-item-image w-100" />
+                    <div class="p-3">
+                        <h1 class="trending-blogs-card-sub-title">Productivity </h1>
+                        <h1 class="trending-blogs-card-title">How to Craft a Better Todo List</h1>
+                        <p class="trending-blogs-card-description">
+                            A well-crafted Todo list acts as a
+                            guiding light for your day.It helps
+                            you overcome…
+
+                        </p>
+                        <a href="" class="trending-blogs-card-link">
+                            READ MORE
+                            <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#ff9f00" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 17 ----------------------------->
+<!-- without Bootstrap -->
+<div class="robotics-container">
+    <div>
+        <h1 class="robotics">Ronotics</h1>
+        <p class="robotics-content">Robotics is the intersection of science,engineering ,and technology</p>
+    </div>
+    <div>
+        <img class="robotics-logo" src="https://assets.ccbp.in/frontend/intermediate-rwd/robotics-img.png">
+    </div>
+</div>
+
+<!-------------------------- Part 18 ----------------------------->
+<!-- without Bootstrap -->
+<div class="car-container">
+    <div class="car-content">
+        <h1 class="car-heading">An Audi can be a truly one person's</h1>
+        <p class="car-description">On the Internet,chatting is taking to</p>
+    </div>
+    <img class="car-speed" src="https://assets.ccbp.in/frontend/intermediate-rwd/dream-car-speedometer-img.png">
+</div>
+
+<!-------------------------- Part 19 ----------------------------->
+<!-- without Bootstrap -->
+<div class="technologies-bg-container">
+    <div class="technologies-content">
+        <h1 class="technologies-heading">4.0 Technologies</h1>
+        <p class="technologies-description"> The careers of todays undergrads will potentially</p>
+        <ul class="technologies-list">
+            <li class="technology-item">Tech Foundations </li>
+            <li class="technology-item">Full stack Development</li>
+            <li class="technology-item">Cyber Security </li>
+            <li class="technology-item">IoT Developer</li>
+            <li class="technology-item">AI/ML </li>
+            <li class="technology-item">Data Sciences </li>
+            <li class="technology-item">space Mission </li>
+            <li class="technology-item">Big Data </li>
+            <li class="technology-item">Cyber physical Systems</li>
+            <li class="technology-item">Data sciences</li>
+            <li class="technology-item">3D Printing</li>
+            <li class="technology-item">VR/AR Development</li>
+            <li class="technology-item">Gene Editing</li>
+        </ul>
+    </div>
+</div>
+
+<!-------------------------- Part 20 ----------------------------->
+<!-- without Bootstrap -->
+<div class="tb-section">
+    <h1 class="tb-heading">Travel Benefits</h1>
+    <p class="tb-description">We are self-service data analytics software that</p>
+    <div class="tb-list-container">
+        <div class="tb-card">
+            <img src="https://assets.ccbp.in/frontend/intermediate-rwd/cheap-than-other-img.png" class="tb-card-image">
+            <h1 class="td-card-heading">Cheap than Other</h1>
+            <p class="tb-card-description">Travelya is cheaper than other travel </p>
+        </div>
+
+        <div class="tb-card">
+            <img src="https://assets.ccbp.in/frontend/intermediate-rwd/secure-payment-img.png" class="tb-card-image">
+            <h1 class="td-card-heading ">Secure Payment</h1>
+            <p class=" tb-card-description">You can pay for your book without a doubt </p>
+        </div>
+
+        <div class="tb-card">
+            <img src="https://assets.ccbp.in/frontend/intermediate-rwd/best-offers-img.png" class="tb-card-image">
+            <h1 class="td-card-heading ">Best Offers</h1>
+            <p class=" tb-card-description">Inform you about all bes offers for all</p>
+        </div>
+
+        <div class="tb-card">
+            <img src="https://assets.ccbp.in/frontend/intermediate-rwd/free-amenities-img.png" class="tb-card-image">
+            <h1 class="td-card-heading ">Free Amenities</h1>
+            <p class=" tb-card-description">We gurantee you can give free amenities</p>
+        </div>
+
+        <div class="tb-card">
+            <img src="https://assets.ccbp.in/frontend/intermediate-rwd/top-rated-img.png" class="tb-card-image">
+            <h1 class="td-card-heading ">Top Rated</h1>
+            <p class=" tb-card-description">Only show the best destinations with 1000</p>
+        </div>
+    </div>
+</div>
+<!-------------------------- Part 21 ----------------------------->
+<!-- without Bootstrap -->
+<div class="bg-container">
+    <div class="move-messenger-container">
+        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/move-messenger-img.png" class="image">
+        <div>
+            <h1 class="heading">Find out what Move Messenger is capable of.</h1>
+            <p class="description">watch a short video that tells you about the user</p>
+            <button class="button-view"> View More </button>
+        </div>
+    </div>
+</div>
+
+
+<!-------------------------- Part 22 ----------------------------->
+<!-- without Bootstrap -->
+
+<div class="bg-container-page">
+    <div class="travel-container">
+        <h1 class="travel-heading">Start Exploring to Find Inner Peace by Traveling</h1>
+        <p class="travel-description"> Lost yourself with Vacation and Travel into a place</p>
+        <div class="buttons-container">
+            <button class="button get-started-button">Get started </button>
+            <button class="button know-more-button">Know More</button>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 23 ----------------------------->
+<!-- without Bootstrap -->
+<div class="features-bg-container">
+    <div class="image-container">
+        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/design-section-bulb-img.png" class="bulb-icon">
+    </div>
+    <div class="design-develop-content">
+        <h1 class="features-heading">We design and develop exceptional user experiences ac </h1>
+        <div class="features-container">
+
+            <div class="feature-container">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/design-section-1-img.png" class="feature-icon">
+                <div class="feature-details">
+                    <h1 class="feature-title">Design</h1>
+                    <p class="feature-description"> UX design refers to the term user Get ready for UX Design jobs with hands-on assignments. Learn how to conduct user research. Gain the skills, confidence, and experience needed to launch your career in UX Design. Stand Out to Employers. Learn at Your Own Pace. No Experience Necessary.</p>
+                </div>
+            </div>
+
+            <div class="feature-container">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/design-section-2-img.png" class="feature-icon">
+                <div class="feature-details">
+                    <h1 class="feature-title">Elements</h1>
+                    <p class="feature-description"> Design elements are the fundamentals</p>
+                </div>
+            </div>
+
+            <div class="feature-container">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/design-section-3-img.png" class="feature-icon">
+                <div class="feature-details">
+                    <h1 class="feature-title">Support</h1>
+                    <p class="feature-description">Design for Support is a methodol</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------- Part 24 ----------------------------->
+<!-- without Bootstrap -->
+<div class="features-section">
+    <div class="fea-bg-container">
+        <div class="feature">
+            <img class="image" src="https://assets.ccbp.in/frontend/intermediate-rwd/freemium-business-model-1-img.png">
+            <div class="feature-details">
+                <h1 class="fea-heading">Social Proof</h1>
+                <p class="fea-description">As Customers,we buy products that make us Social proof is a term that was coined back in 1984 by author Robert Cialdini in his book Influence. This phenomenon is also called informational social influence,</p>
+            </div>
+        </div>
+        <hr />
+        <div class="feature">
+            <img class="image freemium-shift-image" src="https://assets.ccbp.in/frontend/intermediate-rwd/freemium-business-model-2-img.png">
+            <div class="feature-details freemium-shift-feature-details">
+                <h1 class="fea-heading">Freemium Shift</h1>
+                <p class="fea-description">We provide a preminum package to our customer Freemium model is an acquisition strategy used to attract users to a product/service by providing basic features for free, and advanced features</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------- Part 25 ----------------------------->
+<!-- without Bootstrap -->
+<div class="pricing-bg-container">
+    <div class="pricing-plans-container">
+        <h1 class="pricing-heading">Pricing plans</h1>
+        <p class="pricing-description">Every plan inculdes 30 day free trial</p>
+        <div class="pricing-plan-cards-container">
+            <div class="pricing-plan-card">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/personal-img.png" class="icon">
+                <div class="price-container">
+                    <p class="price">$10.00</p>
+                    <p class="duration">Per Month</p>
+                </div>
+                <p class="pricing-plan-description">Perfect for when you want to host your blog or a hobby side project.</p>
+                <ul class="pricing-features-list">
+                    <li class="pricing-feature">2 core Xeon CPU</li>
+                    <li class="pricing-feature">1 GB RAM</li>
+                    <li class="pricing-feature">30 GB SSD</li>
+                </ul>
+                <button class="button">Get Started Today</button>
+            </div>
+
+            <div class="pricing-plan-card">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/business-img.png" class="icon">
+                <div class="price-container">
+                    <p class="price">$10.00</p>
+                    <p class="duration">Per Month</p>
+                </div>
+                <p class="pricing-plan-description">Perfect for when you want to host your blog or a hobby side project.</p>
+                <ul class="pricing-features-list">
+                    <li class="pricing-feature">2 core Xeon CPU</li>
+                    <li class="pricing-feature">1 GB RAM</li>
+                    <li class="pricing-feature">30 GB SSD</li>
+                </ul>
+                <button class="button business-plan-button">Get Started Today</button>
+            </div>
+
+            <div class="pricing-plan-card">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/large-organisation-img.png" class="icon">
+                <div class="price-container">
+                    <p class="price">$10.00</p>
+                    <p class="duration">Per Month</p>
+                </div>
+                <p class="pricing-plan-description">Perfect for when you want to host your blog or a hobby side project.</p>
+                <ul class="pricing-features-list">
+                    <li class="pricing-feature">2 core Xeon CPU</li>
+                    <li class="pricing-feature">1 GB RAM</li>
+                    <li class="pricing-feature">30 GB SSD</li>
+                </ul>
+                <button class="button">Get Started Today</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-------------------------- Part 26 ----------------------------->
+<!-- without Bootstrap -->
+
+
+
+<!-------------------------- Part 27 ----------------------------->
+<!-- without Bootstrap -->
+</body>
+</html>
